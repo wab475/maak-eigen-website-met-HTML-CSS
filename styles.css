@@ -1,0 +1,167 @@
+body{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    color:black;
+    background-color:lightslategray; 
+}
+
+
+a{
+    vertical-align: middle;
+    color:white;
+    text-decoration: none;
+} 
+
+.section{
+    display:inline-block;
+    margin:20px auto;
+}
+
+.image {
+    display: block;
+    margin:0px auto;
+    padding: 0px;
+    width: 100%
+}
+
+.image2 {
+    float:left;
+    margin:5px;
+    padding: 5px 40px;
+    width: 80%;
+}
+.navigation ul{
+    margin:0px;
+    padding:0px 10px;
+}
+
+.navigation li{
+    float:left;
+    list-style-type: none;
+    color:black;
+    margin: 5px 0px;   
+    padding:1px 40px 1px 40px;
+}   
+
+header{
+    margin: 10px;
+}
+
+nav{
+    background-color: rgb(66, 66, 66);
+    text-align:center;
+    vertical-align:middle;
+    color:white;
+    height: 90px;
+    margin:20px 0px;
+}
+
+.column {
+    float:left;
+    width: 80%;
+    padding:5px 40px;
+    margin:5px;
+}
+
+.foto{
+    margin:50px;
+    width: 250px;
+    height:250px;
+    border-radius: 100%;
+    border: 5px solid #073a5c;
+}
+
+.foto1{
+    margin:10px;
+}
+
+.my-form{
+    padding:20px;         
+}
+
+.my form .form-group{
+    padding-bottom:15px;
+}
+
+.my-form label{
+    display:block;
+    margin: 12px 0px;
+}
+
+.my-form input[type="text"], .my-form input[type="email"], .my-form input[type="number"], .my-form input[type="tel"], .my-form textarea{
+    padding:8px;
+    width:40%;
+}
+
+.my-form input[type="value1"], .my.form input[type="url"]{
+    width:60px;
+    height: 18px;
+}
+
+.button{
+    background-color:cornsilk;
+    color:rgb(19, 18, 18);
+    margin-top: 20px;
+    padding:10px 15px;
+}  
+
+ 
+
+.box2 p{
+    font-size: 12px;
+    display:inline-block;
+    margin-top: 50px;
+    margin-left: 30px;
+}
+
+.box2{
+    background-color:rgb(66, 66, 66);
+    text-align:left;
+    vertical-align:middle;
+    color:white;
+    height:130px;
+    margin-top: 50px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    
+}
+
+footer a{
+    float:right;
+    margin: 5px 5px 0px 0px;
+}
+
+
+/*MEDIA QUERY*/
+
+@media screen and (min-width: 768px) {
+    .column {
+      width: 30%;
+    }
+    .box2 p{
+        font-size: 16px;
+    }
+    nav{
+        height: 50px;
+    }
+    body{
+        font-size:18px;
+    }
+  }
+
+@media screen and (min-width: 1024px) {
+    .image{
+        width: 50%
+    }
+    .column {
+      width: 18%;
+    }
+    nav{
+        height:50px;
+    }
+    body{
+        font-size:16px;
+    }
+  }
+ 
+ 
